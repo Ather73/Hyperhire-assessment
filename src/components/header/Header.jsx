@@ -6,6 +6,7 @@ import  "./Header.css";
 const Header = () => {
   return (
     <div className='header'>
+        <h1>I am header</h1>
         <img src={backArrow} alt="" />
          <h4>자유톡</h4>
          <img src={notification} alt="" />
