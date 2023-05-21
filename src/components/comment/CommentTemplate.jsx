@@ -10,6 +10,7 @@ const CommentTemplate = (props) => {
     <div className="comment_wrapper">
       <div className="cm_header">
         <div className="cm_profile">
+          <h1>Comment templates</h1>
           <img className="profile_image" src={props.profile_image} alt="#" />
           <span className="profile_name">{props.name} </span>
           {
